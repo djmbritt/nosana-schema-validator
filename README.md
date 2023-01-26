@@ -25,7 +25,7 @@ Example:
 ## Validate JSON
 
 ```javascript
-import { validateJson } from '@nosana-ci/schema-validator'
+import { validateJson } from '@nosana/schema-validator'
 
 const nosana_pipeline = {
     "nosana": {
