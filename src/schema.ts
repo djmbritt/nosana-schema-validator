@@ -137,8 +137,18 @@ export const NosPipelineSchema: JSONSchemaType<NosJobData> = {
               type: "array",
               nullable: true,
               items: {
-                type: "string",
-                nullable: true
+                type: "object",
+                nullable: true,
+                properties: {
+                  name: {
+                    type: "string",
+                    nullable: false
+                  },
+                  path: {
+                    type: "string",
+                    nullable: false
+                  }
+                }
               }
             },
 
